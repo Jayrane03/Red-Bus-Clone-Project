@@ -400,3 +400,110 @@ label{
   margin: 40px 0;
   font-size: 19px;
 }
+@media screen and (max-width:768px) {
+
+
+  .air-wrapper{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 28px 141px 0;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    gap: 70px;
+  }
+  .btn-con{
+    margin: 20px;
+    
+  }
+  .adv-flexcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.search{
+  position: absolute;
+  transform: translateY(-50%);
+  display: flex;
+  flex: 1;
+ 
+  z-index: 90;
+}
+.con{
+  padding: 50px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 43px 0;
+  gap: 30px;
+}
+.travel {
+  /* padding: 20px 141px 0; */
+  text-align: center;
+  padding: 35px;
+}
+.travel-con{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-top: 40px;
+  /* gap: 30px; */
+  justify-content: space-between;
+}
+.wear{
+  padding: 30px;
+    /* padding: 35px 141px; */
+    color: #3e3e52;
+    text-align: center;
+}
+.foot-con{
+  display: flex;
+  margin-top: 47px;
+  flex-direction: column;
+}
+ #rede img{
+      /* width: 106px; */
+         /* width: 106px; */
+    display: block;
+    margin: 20px auto;
+    height: 56px;
+}
+.right-foot p {
+  /* color: black; */
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  color: black;
+  margin: 10px 32px;
+  /* margin: 20px 155px; */
+}
+.social {
+  margin: 26px 148px;
+  display: flex;
+  justify-content: center;
+}
+.left-foot{
+  display: flex;
+  gap: 39px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+.logo img{
+      /* width: 106px; */
+      width: 86px;
+      height: 56px;
+      margin: 20px;
+}
+.navbar{
+  display: none;
+}
+}
